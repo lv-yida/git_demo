@@ -1,0 +1,10 @@
+git的三个阶段：工作区，暂存区，本地库
+git因为与linux用一个爸爸所以可以使用linux命令
+git config --global user.name 用户名
+git config --global user.email 邮箱      为了标记用户只需设置一次
+git init 初始化版本库，生成.git文件
+git status 查看git状态
+git add 文件名   将文件加入暂存区
+git rm --cached 文件名  将删除暂存区的文件但工作区依旧存在
+git commit -m "日志名字" 文件名    提交本地库（先add到暂存区才能commit到本地库）
+
