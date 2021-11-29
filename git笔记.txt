@@ -28,3 +28,6 @@ git merge 分支名	把指定分支合并到当前分支
 创建远程仓库别名：
 git remote -v			查看当前所有的远程地址别名
 git remote add 别名 远程地址	增加远程地址对应的别名
+
+推送：
+git push 别名/远程地址 分支
