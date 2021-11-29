@@ -6,6 +6,6 @@ git init 初始化版本库，生成.git文件
 git status 查看git状态
 git add 文件名   将文件加入暂存区
 git rm --cached 文件名  将删除暂存区的文件但工作区依旧存在
-git commit -m "日志名字" 文件名    提交本地库（先add到暂存区才能commit到本地库）git reflog  可以查看所有分支的所有操作记录（指针指向哪个版本）
-git log 可以显示所有提交过的版本信息（比reflog更详细）
-
+git commit -m "日志名字" 文件名    提交本地库（先add到暂存区才能commit到本地库）git reflog  可以查看所有分支的所有操作记录（指针指向哪个版本）精简版
+git log 可以显示所有提交过的版本信息（比reflog更详细） 详细版
+git reset --hard 版本号    实现版本的穿梭（切换版本）
